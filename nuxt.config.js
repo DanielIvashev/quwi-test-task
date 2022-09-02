@@ -91,9 +91,5 @@ export default {
         baseUrl: process.env.BASE_API_URL
     },
 
-    router: {
-        base: '/quwi-test-task.github.io/'
-    },
-
     build: {}
 };
