@@ -1,0 +1,31 @@
+.login-form {
+  padding: 25px 40px 35px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .11);
+  box-shadow: 0 0 12px rgb(0 0 0 / 25%);
+  border-radius: 15px;
+
+
+  &__logo-link {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+
+  &__submit-btn {
+    margin-bottom: 20px;
+  }
+
+  &__forgot-pass {
+    text-decoration: none;
+    color: #2a6496;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .base-input {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+@import '_variables';
+
+html body {
+  height: 100%;
+}
+
+html {
+  font-family: GoogleSans,Arial,sans-serif;
+  font-size: 18px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-y: auto;
+  cursor: default;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+}

@@ -1,0 +1,87 @@
+.project-preview {
+	background-color: white;
+	border-radius: 10px;
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, .11);
+	box-shadow: 0 0 12px rgb(0 0 0 / 25%);
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+
+	&__name-wrapper, &__status-wrapper, &__time-wrapper {
+		width: 33.3333%;
+	}
+
+	&__name-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	&__name {
+		text-overflow: ellipsis;
+		max-width: 100px;
+		overflow: hidden;
+	}
+
+	&__project-logo {
+		width: 56px;
+		min-width: 56px;
+		height: 56px;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__status-wrapper {
+	}
+
+	&__status {
+		color: #c44512;
+
+		&.active {
+			color: #6aa78d;
+		}
+	}
+
+	&__time-wrapper {
+	}
+
+	&__time-item {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__time-label {
+
+	}
+
+	&__time-value {
+		font-weight: bold;
+	}
+
+	&__edit-project {
+		padding: 20px;
+		display: flex;
+		height: 100%;
+		flex-direction: column;
+	}
+
+	&__edit-save {
+		margin-top: auto;
+	}
+
+	@media (max-width: 468px) {
+		flex-direction: column;
+		gap: 20px;
+		&__name-wrapper, &__status-wrapper, &__time-wrapper {
+			justify-content: center;
+			width: 100%;
+		}
+	}
+}
