@@ -92,7 +92,7 @@ export default {
     },
 
     router: {
-        base: '/quwi-test-task/'
+        base: '/quwi-test-task.github.io'
     },
 
     build: {}
